@@ -32,6 +32,21 @@
             emp = new CommissionEmployee(103, "Mark", 10000, 0.12);
             Console.WriteLine(emp);
             Console.WriteLine($"\nEarnings = {emp.Earnings():C}\n\n");
+
+
+
+
+            // realistic example
+            Employee[] employees = new Employee[3];
+            employees[0] = new SalariedEmployee(101, "John", 1000);
+            employees[1] = new HourlyEmployee(102, "Anne", 50, 22);
+            employees[2] = new CommissionEmployee(103, "Mark", 10000, 0.12);
+
+            foreach (Employee em in employees)
+            {
+                Console.WriteLine(em);
+                Console.WriteLine($"\nEarnings = {em.Earnings():C}\n\n");
+            }
         }
     }
 }
