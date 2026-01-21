@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="PolymorphismExercise/PolymorphismExercise.csproj" />
   <Project Path="W26Week3IntroToPolymorphism/W26Week3IntroToPolymorphism.csproj" />
 </Solution>
